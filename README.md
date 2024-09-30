@@ -4,7 +4,7 @@ Dette prosjektet er en implementering av det klassiske Tetris-spillet skrevet i 
 
 ## Om prosjektet
 
-Dette Tetris-prosjektet er utviklet for å demonstrere min forståelse av Java-programmering og objektorienterte prinsipper. Spillet er bygget ved hjelp av Java Swing for GUI-delen, og følger designprinsippet om Model-View-Controller (MVC) for å organisere koden på en strukturert måte.
+Dette Tetris-prosjektet er utviklet som en oppgave i INF101 VÅR 2024 for å demonstrere min forståelse av Java-programmering og objektorienterte prinsipper. Spillet er bygget ved hjelp av Java Swing for GUI-delen, og følger designprinsippet om Model-View-Controller (MVC) for å organisere koden på en strukturert måte.
 
 ## Arkitektur
 
@@ -31,6 +31,7 @@ Klon prosjektet og naviger til prosjektmappen, deretter kan du bygge og kjøre d
 ```bash
 mvn clean install
 mvn exec:java -Dexec.mainClass="your.package.name.TetrisMain"
+
 
 
  ---
