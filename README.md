@@ -6,7 +6,7 @@ Dette prosjektet er en implementering av det klassiske Tetris-spillet skrevet i 
 
 Dette Tetris-prosjektet er utviklet for å demonstrere min forståelse av Java-programmering og objektorienterte prinsipper. Spillet er bygget ved hjelp av Java Swing for GUI-delen, og følger designprinsippet om Model-View-Controller (MVC) for å organisere koden på en strukturert måte.
 
-### Arkitektur
+## Arkitektur
 
 Prosjektet er delt inn i tre hovedpakker:
 
@@ -14,7 +14,7 @@ Prosjektet er delt inn i tre hovedpakker:
 - **View**: Ansvarlig for å tegne spillet grafisk på skjermen.
 - **Controller**: Håndterer brukerens input og oppdaterer modellen.
 
-### Hovedklasser
+## Hovedklasser
 
 - **TetrisModel**: Representerer tilstanden til Tetris-spillet, inkludert brettet og den fallende brikken.
 - **TetrisView**: Tegner Tetris-modellen på skjermen.
@@ -22,7 +22,11 @@ Prosjektet er delt inn i tre hovedpakker:
 
 ## Komme i gang
 
-For å kjøre prosjektet, trenger du å ha Java installert på datamaskinen din. Klon prosjektet og naviger til prosjektmappen, deretter kan du bygge og kjøre det ved å bruke følgende kommandoer (hvis du bruker Maven):
+For å kjøre prosjektet, trenger du å ha Java installert på datamaskinen din. Du kan laste ned Java [her](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) (versjon 11 eller nyere anbefales). 
+
+Du trenger også Maven, som kan lastes ned [her](https://maven.apache.org/download.cgi).
+
+Klon prosjektet og naviger til prosjektmappen, deretter kan du bygge og kjøre det ved å bruke følgende kommandoer:
 
 ```bash
 mvn clean install
